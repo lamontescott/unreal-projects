@@ -1,0 +1,6 @@
+Compile programs
+
+//Mac, Linux, or Windows
+g++ triplex.cpp -o triplex
+// -o output [name] switch/flag 
+
