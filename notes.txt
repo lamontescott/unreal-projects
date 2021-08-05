@@ -4,3 +4,16 @@ Compile programs
 g++ triplex.cpp -o triplex
 // -o output [name] switch/flag 
 
+
+
+rand() - return any number between 0 - 32,7677
+ 
+ <value> % <modulus>
+ Maps the <value> between a range of numnbers
+ The range is between 0 and <modulus> - 1
+
+ Ex.
+    rand() => 2524
+        2524 mapped to a range between 0 - 9
+        Not 0 - 10 The range is 0 to the modulus - 1
+  
